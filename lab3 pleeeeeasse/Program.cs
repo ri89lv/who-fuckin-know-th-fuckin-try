@@ -13,7 +13,7 @@ namespace lab3_pleeeeeasse
 
             int A = int.Parse(Console.ReadLine());
             int B = int.Parse(Console.ReadLine());
-
+            //TUT BUDET GOROD SAD
             Console.ReadKey();
         }
     }
