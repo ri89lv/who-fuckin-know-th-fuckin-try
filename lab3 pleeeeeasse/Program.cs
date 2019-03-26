@@ -10,21 +10,16 @@ namespace lab3_pleeeeeasse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("B={0}", B);
-
-            Console.WriteLine("A={0}", A);
             int A = int.Parse(Console.ReadLine());
             int B = int.Parse(Console.ReadLine());
-
-
+            Console.WriteLine("B={0}", B);
+            Console.WriteLine("A={0}", A);
             Console.WriteLine("A+B={0}", A + B);
             Console.WriteLine("A-B={0}", A - B);
-
             Console.WriteLine("A/B={0}", A / (double)B);
-
+            Console.WriteLine("A*B={0}", A * B);
             //TUT BUDET GOROD SAD
             Console.ReadKey();
-            Console.WriteLine("A*B={0}", A * B);
         }
     }
 }
