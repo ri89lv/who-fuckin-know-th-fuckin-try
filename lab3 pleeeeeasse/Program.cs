@@ -11,10 +11,13 @@ namespace lab3_pleeeeeasse
         static void Main(string[] args)
         {
 
+            Console.WriteLine("A={0}", A);
             int A = int.Parse(Console.ReadLine());
             int B = int.Parse(Console.ReadLine());
+            Console.WriteLine("A+B={0}", A + B);
             //TUT BUDET GOROD SAD
             Console.ReadKey();
+            Console.WriteLine("A*B={0}", A * B);
         }
     }
 }
